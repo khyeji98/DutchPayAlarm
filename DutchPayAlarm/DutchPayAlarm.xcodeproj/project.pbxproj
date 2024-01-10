@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333964382B4EDBD400BC63AB /* DutchPayAlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333964372B4EDBD400BC63AB /* DutchPayAlarmApp.swift */; };
+		3339643A2B4EDBD400BC63AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333964392B4EDBD400BC63AB /* ContentView.swift */; };
+		3339643C2B4EDBD500BC63AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339643B2B4EDBD500BC63AB /* Assets.xcassets */; };
+		3339643F2B4EDBD500BC63AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339643E2B4EDBD500BC63AB /* Preview Assets.xcassets */; };
+		333964492B4EDBD500BC63AB /* DutchPayAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333964482B4EDBD500BC63AB /* DutchPayAlarmTests.swift */; };
+		333964532B4EDBD500BC63AB /* DutchPayAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333964522B4EDBD500BC63AB /* DutchPayAlarmUITests.swift */; };
+		333964552B4EDBD500BC63AB /* DutchPayAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333964542B4EDBD500BC63AB /* DutchPayAlarmUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		333964452B4EDBD500BC63AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3339642C2B4EDBD400BC63AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333964332B4EDBD400BC63AB;
+			remoteInfo = DutchPayAlarm;
+		};
+		3339644F2B4EDBD500BC63AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3339642C2B4EDBD400BC63AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 333964332B4EDBD400BC63AB;
+			remoteInfo = DutchPayAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333964342B4EDBD400BC63AB /* DutchPayAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DutchPayAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333964372B4EDBD400BC63AB /* DutchPayAlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayAlarmApp.swift; sourceTree = "<group>"; };
+		333964392B4EDBD400BC63AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3339643B2B4EDBD500BC63AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3339643E2B4EDBD500BC63AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		333964442B4EDBD500BC63AB /* DutchPayAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DutchPayAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333964482B4EDBD500BC63AB /* DutchPayAlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayAlarmTests.swift; sourceTree = "<group>"; };
+		3339644E2B4EDBD500BC63AB /* DutchPayAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DutchPayAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		333964522B4EDBD500BC63AB /* DutchPayAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayAlarmUITests.swift; sourceTree = "<group>"; };
+		333964542B4EDBD500BC63AB /* DutchPayAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DutchPayAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333964312B4EDBD400BC63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333964412B4EDBD500BC63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3339644B2B4EDBD500BC63AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3339642B2B4EDBD400BC63AB = {
+			isa = PBXGroup;
+			children = (
+				333964362B4EDBD400BC63AB /* DutchPayAlarm */,
+				333964472B4EDBD500BC63AB /* DutchPayAlarmTests */,
+				333964512B4EDBD500BC63AB /* DutchPayAlarmUITests */,
+				333964352B4EDBD400BC63AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333964352B4EDBD400BC63AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				333964342B4EDBD400BC63AB /* DutchPayAlarm.app */,
+				333964442B4EDBD500BC63AB /* DutchPayAlarmTests.xctest */,
+				3339644E2B4EDBD500BC63AB /* DutchPayAlarmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333964362B4EDBD400BC63AB /* DutchPayAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				333964372B4EDBD400BC63AB /* DutchPayAlarmApp.swift */,
+				333964392B4EDBD400BC63AB /* ContentView.swift */,
+				3339643B2B4EDBD500BC63AB /* Assets.xcassets */,
+				3339643D2B4EDBD500BC63AB /* Preview Content */,
+			);
+			path = DutchPayAlarm;
+			sourceTree = "<group>";
+		};
+		3339643D2B4EDBD500BC63AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3339643E2B4EDBD500BC63AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		333964472B4EDBD500BC63AB /* DutchPayAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				333964482B4EDBD500BC63AB /* DutchPayAlarmTests.swift */,
+			);
+			path = DutchPayAlarmTests;
+			sourceTree = "<group>";
+		};
+		333964512B4EDBD500BC63AB /* DutchPayAlarmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				333964522B4EDBD500BC63AB /* DutchPayAlarmUITests.swift */,
+				333964542B4EDBD500BC63AB /* DutchPayAlarmUITestsLaunchTests.swift */,
+			);
+			path = DutchPayAlarmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333964332B4EDBD400BC63AB /* DutchPayAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333964582B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarm" */;
+			buildPhases = (
+				333964302B4EDBD400BC63AB /* Sources */,
+				333964312B4EDBD400BC63AB /* Frameworks */,
+				333964322B4EDBD400BC63AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DutchPayAlarm;
+			productName = DutchPayAlarm;
+			productReference = 333964342B4EDBD400BC63AB /* DutchPayAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		333964432B4EDBD500BC63AB /* DutchPayAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3339645B2B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarmTests" */;
+			buildPhases = (
+				333964402B4EDBD500BC63AB /* Sources */,
+				333964412B4EDBD500BC63AB /* Frameworks */,
+				333964422B4EDBD500BC63AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333964462B4EDBD500BC63AB /* PBXTargetDependency */,
+			);
+			name = DutchPayAlarmTests;
+			productName = DutchPayAlarmTests;
+			productReference = 333964442B4EDBD500BC63AB /* DutchPayAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3339644D2B4EDBD500BC63AB /* DutchPayAlarmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3339645E2B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarmUITests" */;
+			buildPhases = (
+				3339644A2B4EDBD500BC63AB /* Sources */,
+				3339644B2B4EDBD500BC63AB /* Frameworks */,
+				3339644C2B4EDBD500BC63AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333964502B4EDBD500BC63AB /* PBXTargetDependency */,
+			);
+			name = DutchPayAlarmUITests;
+			productName = DutchPayAlarmUITests;
+			productReference = 3339644E2B4EDBD500BC63AB /* DutchPayAlarmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3339642C2B4EDBD400BC63AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					333964332B4EDBD400BC63AB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					333964432B4EDBD500BC63AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 333964332B4EDBD400BC63AB;
+					};
+					3339644D2B4EDBD500BC63AB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 333964332B4EDBD400BC63AB;
+					};
+				};
+			};
+			buildConfigurationList = 3339642F2B4EDBD400BC63AB /* Build configuration list for PBXProject "DutchPayAlarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3339642B2B4EDBD400BC63AB;
+			productRefGroup = 333964352B4EDBD400BC63AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				333964332B4EDBD400BC63AB /* DutchPayAlarm */,
+				333964432B4EDBD500BC63AB /* DutchPayAlarmTests */,
+				3339644D2B4EDBD500BC63AB /* DutchPayAlarmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333964322B4EDBD400BC63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3339643F2B4EDBD500BC63AB /* Preview Assets.xcassets in Resources */,
+				3339643C2B4EDBD500BC63AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333964422B4EDBD500BC63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3339644C2B4EDBD500BC63AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333964302B4EDBD400BC63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3339643A2B4EDBD400BC63AB /* ContentView.swift in Sources */,
+				333964382B4EDBD400BC63AB /* DutchPayAlarmApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		333964402B4EDBD500BC63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333964492B4EDBD500BC63AB /* DutchPayAlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3339644A2B4EDBD500BC63AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333964552B4EDBD500BC63AB /* DutchPayAlarmUITestsLaunchTests.swift in Sources */,
+				333964532B4EDBD500BC63AB /* DutchPayAlarmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		333964462B4EDBD500BC63AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333964332B4EDBD400BC63AB /* DutchPayAlarm */;
+			targetProxy = 333964452B4EDBD500BC63AB /* PBXContainerItemProxy */;
+		};
+		333964502B4EDBD500BC63AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 333964332B4EDBD400BC63AB /* DutchPayAlarm */;
+			targetProxy = 3339644F2B4EDBD500BC63AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		333964562B4EDBD500BC63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		333964572B4EDBD500BC63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		333964592B4EDBD500BC63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DutchPayAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3339645A2B4EDBD500BC63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DutchPayAlarm/Preview Content\"";
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3339645C2B4EDBD500BC63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DutchPayAlarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DutchPayAlarm";
+			};
+			name = Debug;
+		};
+		3339645D2B4EDBD500BC63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DutchPayAlarm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DutchPayAlarm";
+			};
+			name = Release;
+		};
+		3339645F2B4EDBD500BC63AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DutchPayAlarm;
+			};
+			name = Debug;
+		};
+		333964602B4EDBD500BC63AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DH9CS7PA5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kimhyeji.DutchPayAlarmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DutchPayAlarm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3339642F2B4EDBD400BC63AB /* Build configuration list for PBXProject "DutchPayAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333964562B4EDBD500BC63AB /* Debug */,
+				333964572B4EDBD500BC63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		333964582B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333964592B4EDBD500BC63AB /* Debug */,
+				3339645A2B4EDBD500BC63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3339645B2B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3339645C2B4EDBD500BC63AB /* Debug */,
+				3339645D2B4EDBD500BC63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3339645E2B4EDBD500BC63AB /* Build configuration list for PBXNativeTarget "DutchPayAlarmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3339645F2B4EDBD500BC63AB /* Debug */,
+				333964602B4EDBD500BC63AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3339642C2B4EDBD400BC63AB /* Project object */;
+}
